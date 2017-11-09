@@ -1,0 +1,233 @@
+¿Cuál es la estructura básica (elementos principales) de un archivo html? Haz un dibujo de esta estructura en la pizarra
+
+<HTML>
+    <HEAD>
+        <TITLE>Título de la página</TITLE>
+
+    </HEAD>
+
+    <BODY>
+        Aquí iría el contenido de la página
+    </BODY>
+</HTML>
+
+ANATOMÍA DE UN ELEMENTO HTML:
+
+<etiqueta de apertura o inicio>elemento<etiqueta de cierre>
+
+¿Cómo vinculamos nuestro html con nuestro js y con nuestro css? ¿Qué convenciones debemos seguir al hacer esto? ¿Por qué? 
+
+JS: incluyendo <script type="text/javascript" src="la ruta de el archivo.js"></script>
+
+CSS: <link rel="stylesheet" href="./style.css" type="text/css" media="all" />
+
+¿Qué significa que css es en "cascada"? ¿Por qué es útil? Haz un dibujo
+CSS cuenta con un mecanismo conocido como la cascada que gobierna cómo interactúan los estilos y qué estilos tienen preferencia cuando existe un conflicto. De hecho, este mecanismo de cascada es la razón por la cual CSS tiene su nombre: Cascading Style Sheets.
+
+¿Cómo funciona la herencia en css? Haz un dibujo
+La herencia es el proceso por el cual algunas declaraciones de CSS aplicadas a un elemento pasan
+de forma automática a los elementos que se encuentran anidados (sus descendientes)
+
+¿Por qué se dice que el html es anidado? Haz un dibujo Un elemento puede contenter en  su contendio otros elementos o etiqueta HTML-
+algunos elementos están "contenidos" dentro de otros.
+
+¿Qué significa crear html semántico? ¿Por qué es importante?
+HTML Semántico es el uso de las etiquetas HTML para reforzar la semántica, o el significado, de la información en las páginas web más que simplemente redefinir su forma de presentación (apariencia).
+
+Dame un par de ejemplos de buenas prácticas de código 
+
+	-Declarar el DOCTYPE correcto
+	-Encoding: debe estar en UTF-8, y especificar el meta para el encoding, de modo que no haya ninguna necesidad de utilizar HTML entities para las tildes y caracteres raros.
+	-Usa etiquetas de ‘Título’ con significado.
+	-Usa metaetiquetas descriptivas
+	-Recuerda cerrar las etiquetas
+	-Nombra las etiquetas siempre en minúsculas
+	-Utiliza ficheros externos para CSS y JavaScript
+	-Enlaza los CSS externos al principio
+	-Enlaza los JavaScript externos al final
+	-Usa el atributo “alt” en todas las imágenes
+	-Valida tu código https://validator.w3.org/
+	-Memoriza todas las etiquetas https://www.w3schools.com/tags/default.asp
+	-Por regla general NO utilizar tablas, A MENOS que se trate de información tabulada,
+
+¿Qué significa que un elemento html se comporte como block? 
+Los elementos a nivel de bloque forman un bloque visible en una página — aparecerán en una nueva línea de cualquier contenido que haya venido antes, y cualquier contenido que venga después también aparecerá en una nueva línea. Los elementos a nivel de bloque tienden a ser elementos estructurales en la página que representan por ejemplo párrafos, listas, menús de navegación, pies de página, etc. Un elemento a nivel de bloque no estaría anidado dentro de un elemento en línea, pero podría estar anidado dentro de otro elemento a nivel de bloque
+
+¿Y como inline? Dame un par de ejemplos
+Los elementos en línea son aquellos que están contenidos dentro de elementos a nivel de bloque y rodean solo pequeñas partes del contenido del documento, no párrafos enteros ni agrupaciones de contenido. Un elemento en línea no causará que una nueva línea aparezca en el documento: normalmente aparecen dentro de un párrafo o texto, por ejemplo elementos de énfasis como em o strong.
+
+¿Qué es un atributo de un elemento html?Los atributos nos dan información adicional sobre el contenido de un elemento que no queremos que aparezca en el contenido actual. En algunos casos agregan características y/o comportamiento a tu elemento HTML. Los atributos aparencen en la etiqueta de apertura del elemento y consisten de dos partes: un nombre y un valor, separados por un signo de igual (=). Dame un ejemplo
+
+Pensando en la analogía de construir un edificio, ¿qué representa el html y qué representa el css?
+
+¿Para qué sirve el atributo style de los elementos html? permite darle estilos en línea al elemento.
+
+
+¿Cuál es la forma correcta de usarlo?
+Un atributo de estilo puede contener una o más declaraciones. Cada declaración está compuesta por una propiedad (como el color) seguida de dos puntos y un valor (como rojo). Cuando tenemos más de una declaración, cada una debe estar separada por punto y coma (;). Por ejemplo: "color:red; background-color: yellow;".
+
+¿Qué es un selector? 
+En CSS, los selectores se usan para elegir los elementos HTML que queremos estilizar de nuestra web. Disponemos de gran variedad de selectores CSS, que proporcionan mucha precisión para seleccionar el elemento deseado. En los siguientes artículos veremos los distintos tipos con más detalle y su funcionamiento.
+
+Tipos de selectores
+Podemos dividir los selectores en las siguientes categorías:
+
+Selectores simples: Seleccionan los elementos por el nombre del tipo de elemento, class, o su id.
+Selectores de atributos: Seleccionan los elementos por los valores de sus atributos.
+Pseudo-clases: Seleccionan los elementos por el estado en que se encuentran, cómo haber aparecido al pasar el ratón, o el tic deshabilitado o seleccionado, o por ser el primer hijo de su padre en el árbol DOM.
+Pseudo-elementos: Selecciona los elementos por su situación en relación a otro elemento, por ejemplo: la primera palabra de cada párrafo, o el contenido que se encuentra justo después de un elemento.
+Combinaciones: No son en sí mismos selectores, sino formas de combinar dos o más selectores de forma práctica para una selección especial. Por ejemplo, se pueden seleccionar párrafos que sean descendientes de divs, o párrafos situados justo después de títulos.
+Selectores múltiples: Tampoco son selectores en sí mismos; podemos agrupar múltiples selectores en la misma regla CSS separados por comas, para aplicarlos a una de las declaraciones o a todos los elementos seleccionados por estos selectores.
+
+¿Qué es un pseudo-selector?
+Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo,  :hover aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.
+
+:active
+:checked
+:default
+:dir()
+:disabled
+:empty
+:enabled
+:first
+:first-child
+:first-of-type
+:fullscreen
+:focus
+:hover
+:indeterminate
+:in-range
+:invalid
+:lang()
+:last-child
+:last-of-type
+:left
+:link
+:not()
+:nth-child()
+:nth-last-child()
+:nth-last-of-type()
+:nth-of-type()
+:only-child
+:only-of-type
+:optional
+:out-of-range
+:read-only
+:read-write
+:required
+:right
+:root
+:scope
+:target
+:valid
+:visited
+
+¿Qué es box-sizing y para qué se usa?
+La propiedad box-sizing se utiliza para indicar al navegador cuáles deben ser las propiedades de tamaño (ancho y alto).
+
+Además le indicamos si deseamos incluir el relleno, el borde y/o el margen.
+
+Valor "content-box"
+
+Para el valor content-box las propiedades width y height incluyen sólo el contenido, no incluyen el padding, border o margin. Este es el valor por defecto.
+
+Valor "border-box"
+
+Para el valor border-box las propiedades width y height incluyen el padding y el border, pero no el margin.
+
+
+Dibuja el modelo de la caja y explícalo
+
+¿Cómo es el flujo normal de un documento?
+El flujo de la página es algo así como el flujo de escritura de elementos dentro del lienzo que nos presenta el navegador. Sabemos que las páginas web son codificadas en HTML y los elementos aparecen en el código en una posición dada. El navegador, en el momento que interpreta el código HTML de la página, va colocando en la página los elementos (definidos por medio de etiquetas HTML) según los va encontrando en el mismo código.
+ ¿Cómo cambiamos ese flujo?
+ Por la combinación de elementos inline o block.
+ Por medio de una hoja 
+
+¿Para qué funciona positioning?
+El atributo position de CSS sí que es capaz de cambiar radicalmente el flujo de los elementos de la página. Este atributo, que explicaremos con detalle más adelante en otros artículos de DesarrolloWeb.com, por defecto tiene el valor "static", que indica que el elemento forma parte del flujo HTML normal de la página
+
+¿En qué se asemeja a float? 
+Atributos float y clear:
+Float sirve para establecer que un elemento tiene que "flotar", colocándose los valores "right" o "left" para que floten a izquierda o derecha. Por si sirve de aclaración, que los elementos floten es algo así como lo que pasa cuando definimos el atributo HTML align="right" o align="left" en las imágenes o tablas. 
+
+¿En qué se diferencia?
+Cuando se establecen las propiedades display, float y position sobre una misma caja, su interpretación es la siguiente:
+Si display vale none, se ignoran las propiedades float y position y la caja no se muestra en la página.
+Si position vale absolute o fixed, la caja se posiciona de forma absoluta, se considera que float vale none y la propiedad display vale block tanto para los elementos en línea como para los elementos de bloque. La posición de la caja se determina mediante el valor de las propiedades top, right, bottom y left.
+En cualquier otro caso, si float tiene un valor distinto de none, la caja se posiciona de forma flotante y la propiedad display vale block tanto para los elementos en línea como para los elementos de bloque.
+
+¿Qué tiene que ver clear y clearfix con float?
+Con el atributo clear hacemos que el elemento se coloque en el primer área libre que tenga al lugar donde se indique. Por ejemplo el valor de clear "right" hace que el elemento se coloque en el primer lugar donde no tenga ningún elemento flotando a la derecha. El valor de clear "both" hace que el elemento se coloque donde no tenga elementos flotanto, tanto a la derecha como a la izquierda.
+
+¿Por qué clearfix se considera un "hack"? ¿Para qué sirve? ¿Cómo se usa?
+
+El famoso hack clearfix, o “hack de limpieza fácil”, es un método útil para quitar floats. Si bien el hack original funciona bien, los navegadores a los que apunta son obsoletos o ya se han quedado en el camino.
+
+¿Qué es colapso de margen? Explícalo con un ejemplo y un dibujo
+
+¿Qué orden prevalece para asignar un estilo? ¿el último? ¿el primero?
+
+¿Qué significa que un selector es más específico que otro? Dame un ejemplo
+
+¿Se aplica el estilo con mayor o menor especificidad?
+
+¿Cómo se calcula la especificidad?
+
+¿Qué significa!important? ¿Por qué NO debemos usarlo a menos que sea estrictamente necesario?
+
+¿Todos los estilos en CSS se heredan? ¿Por qué?
+
+¿Qué es y para qué sirve inherit?
+
+Dame un ejemplo de una undidad absoluta y una relativa
+
+¿Para qué sirve line-height?
+
+¿Para qué sirven valores en procentajes? Dame un ejemplo
+
+El tamaño de fuente por defecto que los navegadores usan antes de aplicar
+CSS es de ...
+
+¿Qué unidad es #ff0000? ¿Qué color representa?
+Rojo
+
+¿RGB es una función?
+
+¿Qué color representa rgb(0,0,255)?
+Azul
+
+¿Cómo le damos opacidad al color?
+Con un canal alpha (a)
+
+¿Cuándo se utilizan valores sin unidades?
+
+¿Cuáles son las recomendaciones generales para el uso de unidades?
+
+
+
+
+
+
+======================================================================
+
+<!DOCTYPE html> declara que el documento es HTML5
+
+ <html> es el elemento raíz de una página html
+ <head> contiene la metainformación acerca del documento
+<title> especifica el titulo del documento
+<body> encierra el contenido visible de la pagina
+<h1> define el encabezado más grande
+<p> define un párrafo
+
+El atributo href especifica la dirección web que quieres que el enlace apunte; es decir, donde el navegador navega cuando se le hace clic. En este ejemplo vemos que apunta a la página de inicio de Laboratoria: http://laboratoria.la/
+
+El atributo target especifica el contexto de navegación que será usado para mostrar el enlace. Por ejemplo, target="_blank" mostrará el enlace en una nueva pestaña. Si quieres mostrar el enlace en la pestaña actual solo omite este atributo.
+
+El atributo title especifica información extra sobre el enlace, como qué página es la que estás enlazando. En nuestro ejemplo dice "Página de inicio de Laboratoria". Esto aparecera como información cuando se pase el mouse por encima del link.
+========================================================
+https://github.com/Laboratoria-learning/lyft
+https://github.com/Laboratoria-learning/freelancer
+https://github.com/denysdovhan/learnyouhtml
+
+========================================================

@@ -1,0 +1,147 @@
+01-COMPUTE-AVERAGE-LENGTH-OF-WORDS
+
+	Escribe una función 'computeAverageLengthOfWords' que recibe dos strings y devuelve el promedio de la longitud de ambos strings.
+
+	Ejemplo de entrada:
+
+	```js
+	var output = computeAverageLengthOfWords('code', 'programs');
+	console.log(output); // --> 6
+	```
+
+
+02-ADD-ARRAY-PROPERTY
+
+	Escribe una función llamada "addArrayProperty(obj, key, array)".
+
+	Dado un objeto, una clave y un array, "addArrayProperty" establece una nueva propiedad  sobre el objeto en la clave dada, con su valor establecido en el array dado.
+
+
+	Ejemplo de entrada:
+
+	```js
+	var myObj = {};
+	var myArray = [1, 3];
+	addArrayProperty(myObj, 'myProperty', myArray);
+	console.log(myObj.myProperty); // --> [1, 3]
+	```
+
+
+
+03-GET-NTH-ELEMENT
+
+
+Escriba una función llamada `getNthElement`.
+
+	Dada una matriz y un entero, `getNthElement` devuelve el elemento al entero dado, dentro de la matriz dada.
+	Notas:
+	* Si el array tiene una longitud de 0, debería devolver `undefined`.
+
+	Ejemplo de entrada:
+
+	```js
+	var output = getNthElement([1, 3, 5], 1);
+	console.log(output); // --> 3
+	```
+
+04-REMOVE-STRING-VALUES-LONGER-THAN
+
+Escribe una función llamada "removeStringValuesLongerThan".
+
+Dado un número y un objeto,"removeStringValuesLongerThan" elimina cualquier propiedad en el objeto dado cuyos valores son cadenas de texto más largas que el número dado.
+
+Ejemplo de entrada:
+
+```js
+var obj = {
+  name: 'Montana',
+  age: 20,
+  location: 'Texas'
+};
+removeStringValuesLongerThan(6, obj);
+console.log(obj); // { age: 20, location: 'Texas' }
+```
+
+
+
+05-CONVERT-DOUBLE-SPACE-TO-SINGLE
+
+
+06-ARE-VALID-CREDENTIALS
+
+
+07-GET-ELEMENT-OF-ARRAY-PROPERTY
+
+
+08-FIND-PAIR-FOR-SUM
+
+
+09-GREET-CUSTOMER
+
+
+10-FILTER-ODD-ELEMENTS
+
+
+11-FIND-SHORTEST-WORD-AMONG-MIXED-ELEMENTS
+
+
+12-FIND-SMALLEST-NUMBER-AMONG-MIXED-ELEMENTS
+
+
+13-GET-LONGEST-WORD-OF-MIXED-ELEMENTS
+
+
+14-GET-LARGEST-NUMBER-AMONG-MIXED-ELEMENTS
+
+
+15-COMPUTE-SUM-OF-ALL-ELEMENTS
+
+
+16-TRANSFORM-FIRST-AND-LAST
+
+
+17-GET-ALL-KEYS
+
+
+18-FROM-LIST-TO-OBJECT
+
+
+19-LIST-ALL-VALUES
+
+
+20-TRANSFORM-EMPLOYEE-DATA
+
+
+21-CONVERT-OBJECT-TO-LIST
+
+
+22-COMPUTE-SUM-BETWEEN
+
+
+23-GET-LONGEST-OF-THREE-WORDS
+
+
+24-FIND-SHORTEST-OF-THREE-WORDS
+
+
+25-CALCULATE-BILL-TOTAL
+
+
+26-CONVERT-SCORE-TO-GRADE
+
+
+27-GET-SUM-OF-ALL-ELEMENTS-AT-PROPERTY
+
+
+28-GET-PRODUCT-OF-ALL-ELEMENTS-AT-PROPERTY
+
+
+29-ADD-OBJECT-PROPERTY
+
+
+30-ADD-FULL-NAME-PROPERTY
+
+
+
+
+

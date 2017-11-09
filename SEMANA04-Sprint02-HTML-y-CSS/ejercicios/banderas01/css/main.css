@@ -1,0 +1,28 @@
+body{
+	width:100%;
+	min-height:100vh;
+	margin:0;
+	padding:0;
+	font-family:'Roboto',sans-serif;
+	font-style:normal;
+	font-weight:300;
+}
+
+p{
+	font-family: 'Times-New-Roman';
+	font-size: 18px;
+	padding: 10px;
+	margin: 8px;
+}
+
+.yellowFlag{
+	background-color: #f7b617;	
+	height: 120px;
+}
+
+.darkFlag{
+	background-color: #2b2b2b;
+	color:#fff;
+	height: 120px;
+
+}

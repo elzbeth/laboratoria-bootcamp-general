@@ -1,0 +1,34 @@
+ARREGLOS:
+
+metodo splice;
+sirve para sustituir elementos de un arreglo.
+recibe tres parámetros.
+
+metodo concat
+sirve para unir arreglos en uno solo.
+guarda en la memoria todo lo concatenando pero no cambia la estructura.
+
+
+metodo slice
+obtine una "rebanada" del arreglo.
+primer parametro es donde empieza, el segundo donde termina el corte.
+
+OBJETOS:
+agregar propiedades
+dos formas:
+
+manual:
+
+nombreObjeto.nombrePropiedad = valorDeLaPropiedad;
+
+dinámica:
+
+for(key in object){
+	
+}
+
+
+modificar el valor de la key
+
+
+al momento de llamara el objeto se puede elegir con corchetes o punto puedes aplicarle metodos.
